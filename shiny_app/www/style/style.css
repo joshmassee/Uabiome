@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro|Montserrat|Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/* global page layout */
+.first {
+  height:50vh;
+  min-height:50px;
+  background-size:cover;
+  background-image:url('../images/banner1.jpg');
+  background-position: top center;
+}
+
+.last {
+  height:25vh;
+  min-height:10px;
+  background-size:cover;
+  background-image:url('../images/pied_page.jpg');
+  background-position: top center;
+}
+ 
+h1 {
+	color: #F0F8FF;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h4, h5, h6 {
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+	/*font-weight: bold;*/
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .1em;
+	line-height: 1.2;
+}
+
+h1 {
+	margin: 50px 0;
+}
+
+@media print{
+	.btn {
+		display: none;
+	}
+}
