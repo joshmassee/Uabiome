@@ -1,11 +1,11 @@
 library(shiny)
 library(viridis)
 library(hrbrthemes)
+library(treemapify)
 library(stringr)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
-# ressources Apps : https://github.com/phillyo/intelligentsia/blob/master/ui.R
 
 # ----------------------------------
 # load dataset
@@ -48,10 +48,11 @@ ui <- navbarPage(title = "uBiome",
                                                          "sample 3" = "sample3",
                                                          "sample 4" = "sample4")),
                                            radioButtons("pType", "Choose plot type:",
-                                                        list("barchart", "Table view"))
+                                                        list("barchart", "Table view", "TreeMap view"))
                                          ),
                                          mainPanel(
                                            textOutput("title_txt"),
+                                           conditionalPanel('input.pType=="TreeMap view"', plotOutput("bubblechart_SSA")),
                                            conditionalPanel('input.pType=="barchart"', plotOutput("barchart_SSA")),
                                            conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA"))
                                          )
@@ -120,6 +121,13 @@ server <- function(input, output) {
     output$tableview_SSA <- renderTable({
       validate(need(input$pType=="Table view", message=FALSE))
       table_view()
+    })
+    output$bubblechart_SSA <- renderPlot({ 
+      validate(need(input$pType=="TreeMap view", message=FALSE))
+      display_dataset <- dataset1 %>% select(Phylum, sample_demo, input$sample) %>% 
+        gather("sample", "Abundance", -Phylum)
+      display_dataset %>% ggplot2::ggplot(ggplot2::aes(area = Abundance, fill = Phylum)) +
+        geom_treemap()
     })
   
     # ----------------------------------
