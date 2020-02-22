@@ -9,11 +9,11 @@ library(tidyr)
 
 # ----------------------------------
 # load dataset
-dataset1 <- readr::read_tsv("samples.tsv") 
+dataset1 <- readr::read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
  
 
 
-ui <- navbarPage(title = "uBiome",
+ui <- navbarPage(title = "UABiome",
                  theme = "style/style.css",
                  footer = includeHTML("footer.html"),
                  fluid = TRUE, 
@@ -54,7 +54,8 @@ ui <- navbarPage(title = "uBiome",
                                            textOutput("title_txt"),
                                            conditionalPanel('input.pType=="TreeMap view"', plotOutput("bubblechart_SSA")),
                                            conditionalPanel('input.pType=="barchart"', plotOutput("barchart_SSA")),
-                                           conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA"))
+                                           conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA")),
+                                           tableOutput("tableview_diversity")
                                          )
                                        )
                                      ),
@@ -101,22 +102,22 @@ server <- function(input, output) {
   # ----------------------------------
   # tab panel 2-A - Sample analysis
     output$title_txt <- renderText({
-      paste("You chose", input$sample)
+      paste("You are vizualizing ", input$sample)
     })
     output$barchart_SSA <- renderPlot({  
       validate(need(input$pType=="barchart", message=FALSE))
-      display_dataset <- dataset1 %>% select(Phylum, sample_demo, input$sample) %>% 
-        gather("sample", "Abundance", -Phylum)
-      display_dataset %>% ggplot(aes(fill=Phylum, y=Abundance, x=sample)) + 
+      display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
+        filter(sample %in% c(input$sample, "sample_average"))
+      display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
         geom_bar(position="fill", stat="identity")+
         scale_fill_viridis(discrete = T) +
-        ggtitle("my title") +
+        ggtitle("Comparison to average population") +
         theme_ipsum() +
-        xlab("xlab")+
-        ylab("ylab")
+        ylab("% of the population")
     })
     table_view <- reactive({
-      dataset1 %>% select(Phylum, sample_demo, input$sample)
+      dataset1 %>% select(Genus, sample, Genus_count) %>% 
+        filter(sample=="sample_average")
     })
     output$tableview_SSA <- renderTable({
       validate(need(input$pType=="Table view", message=FALSE))
@@ -124,10 +125,17 @@ server <- function(input, output) {
     })
     output$bubblechart_SSA <- renderPlot({ 
       validate(need(input$pType=="TreeMap view", message=FALSE))
-      display_dataset <- dataset1 %>% select(Phylum, sample_demo, input$sample) %>% 
-        gather("sample", "Abundance", -Phylum)
-      display_dataset %>% ggplot2::ggplot(ggplot2::aes(area = Abundance, fill = Phylum)) +
+      display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
+        filter(sample %in% c(input$sample, "sample_average"))
+      display_dataset %>% ggplot2::ggplot(ggplot2::aes(area = Genus_count, fill = Genus)) +
         geom_treemap()
+    })
+    table_div <- reactive({
+      dataset1 %>% select(sample,  "Shannon index", "Sorensen index") %>% 
+        filter(sample==input$sample) %>% unique()
+    })
+    output$tableview_diversity <- renderTable({
+      table_div()
     })
   
     # ----------------------------------
@@ -137,18 +145,18 @@ server <- function(input, output) {
       paste("You chose", samples_names)
     })
     output$barchart_TSA <- renderPlot({  
-      display_dataset <- dataset1 %>% select(Phylum, input$sample_sel) %>% 
-        gather("sample", "Abundance", -Phylum)
-      display_dataset %>% ggplot(aes(fill=Phylum, y=Abundance, x=sample)) + 
+      display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
+        filter(sample %in% c(input$sample_sel))
+      display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
         geom_bar(position="fill", stat="identity")+
         scale_fill_viridis(discrete = T) +
-        ggtitle("my title") +
+        ggtitle("Comparing your sample") +
         theme_ipsum() +
-        xlab("xlab")+
-        ylab("ylab")
+        ylab("% of the microbial population")
     })
     alpha_view <- reactive({
-      dataset1 %>% select(Phylum, input$sample_sel)
+      dataset1 %>% select(sample, "Shannon index") %>% filter(sample %in% input$sample_sel) %>% 
+        unique() 
     })
     output$tableview_TSA <- renderTable({
       validate(need(input$alphaShow, message=FALSE))
