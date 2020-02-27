@@ -6,6 +6,7 @@ library(tidyverse)
 library(tidyr)
 library(dplyr)
 library(vegan)
+library(ggpubr)
 
 
 #-----Reading in Files--------------------------------------------------------------
@@ -90,6 +91,7 @@ patient_1 <- rbind(desc_sample_1,                      #All of patient 1 in desc
                    desc_sample_5)
 
 view(patient_1)
+write_tsv(patient_1, "C:/Users/Shelbeezy/work/uabiome_data/Patient_BT023.txt")
 
 top10_each <- patient_1 %>%                           # Top 10 of each sample of patient 1 in one dataframe for plotting
   group_by(SampleID) %>%
@@ -192,6 +194,24 @@ top10_each %>%
        x = "Sample ID",
        y = "Frequency of Abundance",
        fill = "Genus")
+
+top10_each %>%
+  filter(SampleID == "Calton305") %>%
+  ggplot(aes(x = Genus,
+             y = Genus_Count,
+             group = SampleID))+
+  geom_line(aes(color = SampleID))
+
+top10_each %>%
+  ggplot(aes(x = Genus,
+             y = Genus_Count,
+             group = SampleID))+
+  geom_line(aes(color = SampleID))
+
+view(top10_each)
+
+top10_each %>%
+  ggscatter(x = "Genus", y = "Genus_Count",fill = "SampleID",pallet = "" size = 3, alpha = 0.6)
 
 #---------Temporal Plotting---------------------------------------------------------------
 
