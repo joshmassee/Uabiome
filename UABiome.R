@@ -7,7 +7,9 @@ library(tidyr)
 library(dplyr)
 library(vegan)
 library(ggpubr)
-
+library(scales)
+library(treemap)
+library(waffle)
 
 #-----Reading in Files--------------------------------------------------------------
 asv_table_f <- read_tsv("C:/Users/Shelbeezy/work/uabiome_data/ASV_table.tsv")
@@ -38,180 +40,245 @@ full_table <- inner_join(half_table,                   #Join the half table with
 full_table[is.na(full_table)] <- "Other"                  #Converting all blanks with Other
 
 view(full_table)
-#-----------Table of genus averages across all samples and patients----------------------
-average_sum_full <- full_table %>%                          #Finding sum of genus count
-  group_by(Genus) %>% 
-  mutate(Genus_Count = sum(Genus_Count)) %>%
-  select(Genus, 
-         Genus_Count) %>%
-  unique()
 
-average_tally_full <- full_table %>%                        #Finding total number of that genus
-  group_by(Genus) %>% 
-  tally() 
+proportion_table <- full_table %>%                          
+  group_by(SampleID) %>% 
+  mutate(total_count = sum(Genus_Count)) %>% 
+  ungroup() %>%
+  unique()  %>% 
+  mutate(proportion = Genus_Count/total_count)
 
-average_genus_full <- inner_join(average_sum_full,              #Finding Average of each Genus type
-                            average_tally_full, 
-                            by = "Genus") %>%
-  mutate(Average_Count = Genus_Count/n) %>% 
-  select(Genus, 
-         Average_Count)
-
-view(average_genus_full)
+view(proportion_table)
 
 #-----------Single Patient Information-----------------------------------------------
-sample_1 <- filter(full_table,                   
-                   Patient == "BT023",
-                   SampleID == "Calton301") %>%
-  mutate(Genus_Ratio = Genus_Count/sum(sample_1$Genus_Count))
-view(sample_1)
-sample_2 <- filter(full_table,                   
-                   Patient == "BT023",
-                   SampleID == "Calton302")
-sample_3 <- filter(full_table,                   
-                   Patient == "BT023",
-                   SampleID == "Calton303")
-sample_4 <- filter(full_table,                   
-                   Patient == "BT023",
-                   SampleID == "Calton304")
-sample_5 <- filter(full_table,                   
-                   Patient == "BT023",
-                   SampleID == "Calton305")
+ordered <- proportion_table %>% 
+  filter(Patient == "A") %>%
+  group_by(SampleID) %>% 
+  arrange(desc(Genus_Count), 
+          .by_group = TRUE)
 
-desc_sample_1 <- sample_1[order(desc(sample_1$Genus_Count)),]
-desc_sample_2 <- sample_2[order(desc(sample_2$Genus_Count)),]
-desc_sample_3 <- sample_3[order(desc(sample_3$Genus_Count)),]
-desc_sample_4 <- sample_4[order(desc(sample_4$Genus_Count)),]
-desc_sample_5 <- sample_5[order(desc(sample_5$Genus_Count)),]
+view(ordered)
 
-patient_1 <- rbind(desc_sample_1,                      #All of patient 1 in descending order
-                   desc_sample_2,
-                   desc_sample_3,
-                   desc_sample_4,
-                   desc_sample_5)
+write_tsv(ordered, "C:/Users/Shelbeezy/work/uabiome_data/Patient_A.txt")
 
-view(patient_1)
-write_tsv(patient_1, "C:/Users/Shelbeezy/work/uabiome_data/Patient_BT023.txt")
-
-top10_each <- patient_1 %>%                           # Top 10 of each sample of patient 1 in one dataframe for plotting
+top10_each <- ordered %>%                           # Top 10 of each sample of patient 1 in one dataframe for plotting
   group_by(SampleID) %>%
   top_n(n = 10, 
         Genus_Count)
 
 view(top10_each)
 
-write_tsv(top10_each, "C:/Users/Shelbeezy/work/uabiome_data/top10_PatientBT023.txt")
-
-#-------------Averages in progress------------------------------------------------------
-# average_sum <- patient_1 %>%                          #Finding sum of genus count
-#   group_by(Genus) %>% 
-#   mutate(Genus_Count = sum(Genus_Count)) %>%
-#   select(Genus, 
-#          Genus_Count) %>%
-#   unique()
-# 
-# average_tally <- patient_1 %>%                        #Finding total number of that genus
-#   group_by(Genus) %>% 
-#   tally() 
-# 
-# average_genus <- inner_join(average_sum,              #Finding Average of each Genus type
-#                             average_tally, 
-#                             by = "Genus") %>%
-#   mutate(Average_Count = Genus_Count/n) %>% 
-#   select(Genus, 
-#          Average_Count)
-# 
-# view(average_genus)
-
-#---------Alpha Diversity in Progress----------------------------------------------------
-
-#alpha <- diversity(sample_1$Genus_Ratio)
-#view(alpha)
-#view(sample_1)
-#---------Single Plotting---------------------------------------------------------------
+write_tsv(top10_each, "C:/Users/Shelbeezy/work/uabiome_data/top10_Patient_A.txt")
 
 #---------Single: Plotting Top 10 Most Abundant for Sample 1-----------------------------
 top10_each %>% 
-  filter(SampleID == "Calton301") %>%
+  filter(SampleID == "Sample 1") %>%
   ggplot(aes(fill = Genus,
              y = Genus_Count, 
-             x = SampleID)) +                             
+             x = SampleID),
+         width = 1) +                             
   geom_bar(position = "fill", 
-           stat = "identity") +
+           stat = "identity",
+           width = 0.6) + 
+  scale_y_continuous(labels = percent) +
   labs(title = "Total Genus Abundance for Sample 1",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") + 
+  theme(plot.title = element_text(size=18, face="bold.italic"),
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.title.y = element_text(size=14, face="bold"),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face="bold"))
 
 #---------Single: Plotting Top 10 Most Abundant for Sample 2-----------------------------
 top10_each %>% 
-  filter(SampleID == "Calton302") %>%
+  filter(SampleID == "Sample 2") %>%
   ggplot(aes(fill = Genus,
              y = Genus_Count, 
-             x = SampleID)) +                             
+             x = SampleID),
+         width = 1) +                             
   geom_bar(position = "fill", 
-           stat = "identity") +
+           stat = "identity",
+           width = 0.6) + 
+  scale_y_continuous(labels = percent) +
   labs(title = "Total Genus Abundance for Sample 2",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") + 
+  theme(plot.title = element_text(size=18, face="bold.italic"),
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.title.y = element_text(size=14, face="bold"),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face="bold"))
 
 #---------Single: Plotting Top 10 Most Abundant for Sample 3-----------------------------
 top10_each %>% 
-  filter(SampleID == "Calton303") %>%
+  filter(SampleID == "Sample 3") %>%
   ggplot(aes(fill = Genus,
              y = Genus_Count, 
-             x = SampleID)) +                             
+             x = SampleID),
+         width = 1) +                             
   geom_bar(position = "fill", 
-           stat = "identity") +
+           stat = "identity",
+           width = 0.6) + 
+  scale_y_continuous(labels = percent) +
   labs(title = "Total Genus Abundance for Sample 3",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") + 
+  theme(plot.title = element_text(size=18, face="bold.italic"),
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.title.y = element_text(size=14, face="bold"),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face="bold"))
 
 #---------Single: Plotting Top 10 Most Abundant for Sample 4-----------------------------
 top10_each %>% 
-  filter(SampleID == "Calton304") %>%
+  filter(SampleID == "Sample 4") %>%
   ggplot(aes(fill = Genus,
              y = Genus_Count, 
-             x = SampleID)) +                             
+             x = SampleID),
+         width = 1) +                             
   geom_bar(position = "fill", 
-           stat = "identity") +
+           stat = "identity",
+           width = 0.6) + 
+  scale_y_continuous(labels = percent) +
   labs(title = "Total Genus Abundance for Sample 4",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") + 
+  theme(plot.title = element_text(size=18, face="bold.italic"),
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.title.y = element_text(size=14, face="bold"),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face="bold"))
 
 #---------Single: Plotting Top 10 Most Abundant for Sample 5-----------------------------
 top10_each %>% 
-  filter(SampleID == "Calton305") %>%
+  filter(SampleID == "Sample 5") %>%
   ggplot(aes(fill = Genus,
              y = Genus_Count, 
-             x = SampleID)) +                             
+             x = SampleID),
+         width = 1) +                             
   geom_bar(position = "fill", 
-           stat = "identity") +
+           stat = "identity",
+           width = 0.6) + 
+  scale_y_continuous(labels = percent) +
   labs(title = "Total Genus Abundance for Sample 5",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") + 
+  theme(plot.title = element_text(size=18, face="bold.italic"),
+        axis.title.x = element_text(size=14, face="bold"),
+        axis.title.y = element_text(size=14, face="bold"),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face="bold"))
+
+#--------------Testing Plots--------------------------------------------
+
+top10_each %>%                                   #Pie Chart
+  filter(SampleID == "Sample 2") %>%
+  ggplot(aes(x="", y=proportion, fill=Genus)) +
+  geom_bar(stat="identity", width=1) +
+  coord_polar("y", start=0)+
+  theme_void()+
+  labs(title = "Total Genus Abundance for Sample 2",
+       fill = "Genus") +
+  theme(plot.title = element_text(size=18, face="bold.italic", hjust = .65, vjust = -5),
+        legend.text = element_text(size =11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"))
+
+top10_each %>%                                 #Treemap
+  filter(SampleID == "Sample 4") %>%
+  treemap(index = "Genus",
+          vSize="Genus_Count",
+          type="index",
+          title = "Total Genus Abundance in Sample 4",
+          fontsize.title = 18)
 
 top10_each %>%
-  filter(SampleID == "Calton305") %>%
-  ggplot(aes(x = Genus,
-             y = Genus_Count,
-             group = SampleID))+
-  geom_line(aes(color = SampleID))
+  ggplot(aes(x = Genus, 
+             y = proportion * 100, 
+             color = SampleID))+
+  geom_point(size = 5, 
+             alpha = 0.6) + 
+  labs(title = "Total Genus Abundance Across All Samples",
+       x = "Genus",
+       y = "Frequency of Abundance") +
+  scale_color_discrete(name = "Sample Number") +
+  theme(axis.text.x = element_text(angle = 55, 
+                                   hjust = 1),
+        plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face = "bold"))
 
 top10_each %>%
-  ggplot(aes(x = Genus,
-             y = Genus_Count,
-             group = SampleID))+
-  geom_line(aes(color = SampleID))
-
-view(top10_each)
+  ggplot(aes(x = Genus, 
+             y = proportion * 100, 
+             color = SampleID))+
+  geom_point(size = 5, 
+             alpha = 0.6) + 
+  labs(title = "Total Genus Abundance Across All Samples",
+       x = "Genus",
+       y = "Frequency of Abundance") +
+  scale_color_discrete(name = "Sample Number") +
+  theme(axis.text.x = element_text(angle = 55, 
+                                 hjust = 1),
+        plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face = "bold")) +
+  coord_flip()
+ 
+top10_each %>%
+  ggplot(aes(x = SampleID, 
+             y = Genus)) +
+  geom_point(aes(color = proportion * 100), 
+             size = 10) + 
+  labs(title = "Total Genus Abundance Across All Samples",
+       x = "Sample Number",
+       y = "Genus",
+       fill = "Genus") +
+  scale_colour_gradient(low = "#1ee6fc", 
+                        high = "Black", 
+                        name = "Frequency of\n Abundance") +
+  theme(plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face = "bold"))
 
 top10_each %>%
-  ggscatter(x = "Genus", y = "Genus_Count",fill = "SampleID",pallet = "" size = 3, alpha = 0.6)
+  ggplot(aes(x = SampleID, 
+             y = Genus)) +
+  geom_point(aes(color = proportion * 100), 
+             size = 10) + 
+  labs(title = "Total Genus Abundance Across All Samples",
+       x = "Sample Number",
+       y = "Genus",
+       fill = "Genus") +
+  scale_colour_gradient(low = "orange", 
+                        high = "purple", 
+                        name = "Frequency of\n Abundance") +
+  theme(plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face = "bold"))
+
 
 #---------Temporal Plotting---------------------------------------------------------------
 
@@ -223,10 +290,16 @@ top10_each %>%
   geom_bar(position = "fill", 
            stat = "identity") +
   labs(title = "Total Genus Abundance per Sample",
-       subtitle = "Condensed",
-       x = "Sample ID",
+       x = "Sample Number",
        y = "Frequency of Abundance",
-       fill = "Genus")
+       fill = "Genus") +
+  scale_y_continuous(labels = percent) +
+  theme(plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text = element_text(size = 11, face = "bold"))
 
 #--------Temporal: Plotting Top 10 Most Abundant by Day of Life---------------------------
 top10_each %>%
@@ -236,8 +309,20 @@ top10_each %>%
   geom_bar(position = "fill", 
            stat = "identity") +
   labs(title = "Total Genus Abundance per Sample",
-       subtitle = "Spaced out over Time",
        x = "Date",
        y = "Frequency of Abundance",
-       fill = "Genus")
-
+       fill = "Genus") +
+  scale_y_continuous(labels = percent) +
+  annotate("text", x = 23, y = -0.038, label= "9/11/2019", size = 4, angle = 24, hjust = .6) + 
+  annotate("text", x = 35, y = -0.038, label= "9/23/2019", size = 4, angle = 24, hjust = .6) +
+  annotate("text", x = 38, y = -0.038, label= "9/26/2019", size = 4, angle = 24, hjust = .6) +
+  annotate("text", x = 42, y = -0.038, label= "9/30/2019", size = 4, angle = 24, hjust = .6) +
+  annotate("text", x = 48, y = -0.038, label= "10/06/2019", size = 4, angle = 24, hjust = .6) +
+  theme(plot.title = element_text(size = 18, face = "bold.italic"),
+        axis.title.x = element_text(size = 14, face = "bold"),
+        axis.title.y = element_text(size = 14, face = "bold"),
+        legend.text = element_text(size = 11, face = "bold"),
+        legend.title = element_text(size = 14, face = "bold"),
+        axis.text.y = element_text(size = 11, face = "bold"),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())
