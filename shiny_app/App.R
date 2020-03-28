@@ -10,7 +10,8 @@ library(tidyr)
 # ----------------------------------
 # load dataset
 dataset1 <- readr::read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
- 
+info_dataset<- readr::read_csv("sample_info.csv")
+dataset1 <- inner_join(dataset1, info_dataset, by="sample")
 
 
 ui <- navbarPage(title = "UABiome",
@@ -73,7 +74,8 @@ ui <- navbarPage(title = "UABiome",
                                                          "sample 4" = "sample4"), 
                                                        selected = "sample1",
                                                        multiple= TRUE),
-                                           checkboxInput("alphaShow", "show alpha index", FALSE)
+                                           checkboxInput("alphaShow", "show alpha index", FALSE),
+                                           checkboxInput("TempShow", "show dates", FALSE)
                                           ),
                                           mainPanel(
                                             textOutput("txt"),
@@ -107,7 +109,9 @@ server <- function(input, output) {
     output$barchart_SSA <- renderPlot({  
       validate(need(input$pType=="barchart", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
-        filter(sample %in% c(input$sample, "sample_average"))
+        filter(sample %in% c(input$sample, "sample_average")) %>% group_by(sample) %>% 
+        arrange(desc(Genus_count)) %>% top_n(10)
+      
       display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
         geom_bar(position="fill", stat="identity")+
         scale_fill_viridis(discrete = T) +
@@ -117,7 +121,7 @@ server <- function(input, output) {
     })
     table_view <- reactive({
       dataset1 %>% select(Genus, sample, Genus_count) %>% 
-        filter(sample=="sample_average")
+        filter(sample==input$sample)
     })
     output$tableview_SSA <- renderTable({
       validate(need(input$pType=="Table view", message=FALSE))
@@ -145,14 +149,23 @@ server <- function(input, output) {
       paste("You chose", samples_names)
     })
     output$barchart_TSA <- renderPlot({  
-      display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
+      display_dataset <- dataset1 %>% select(Genus, sample, Genus_count, date) %>% 
         filter(sample %in% c(input$sample_sel))
-      display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
-        geom_bar(position="fill", stat="identity")+
-        scale_fill_viridis(discrete = T) +
-        ggtitle("Comparing your sample") +
-        theme_ipsum() +
-        ylab("% of the microbial population")
+      if(!input$TempShow){
+        display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
+          geom_bar(position="fill", stat="identity")+
+          scale_fill_viridis(discrete = T) +
+          ggtitle("Comparing your sample") +
+          theme_ipsum() +
+          ylab("% of the microbial population")
+      }else{
+        display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=date)) + 
+          geom_bar(position="fill", stat="identity")+
+          scale_fill_viridis(discrete = T) +
+          ggtitle("Comparing your sample") +
+          theme_ipsum() +
+          ylab("% of the microbial population")
+      }
     })
     alpha_view <- reactive({
       dataset1 %>% select(sample, "Shannon index") %>% filter(sample %in% input$sample_sel) %>% 
