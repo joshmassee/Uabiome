@@ -121,8 +121,8 @@ server <- function(input, output) {
         theme_minimal()
     })
     table_view <- reactive({
-      dataset1 %>% select(Genus, sample, Genus_count) %>% 
-        filter(sample==input$sample)
+      dataset1 %>%  filter(sample==input$sample) %>%
+        select(Genus, Genus_count)
     })
     output$tableview_SSA <- renderTable({
       validate(need(input$pType=="Table view", message=FALSE))
