@@ -11,7 +11,7 @@ library(tidyr)
 # load dataset
 dataset1 <- readr::read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
 info_dataset<- readr::read_csv("sample_info.csv")
-dataset1 <- inner_join(dataset1, info_dataset, by="sample")
+dataset1 <- left_join(dataset1, info_dataset, by="sample")
 
 
 ui <- navbarPage(title = "UABiome",
@@ -49,11 +49,11 @@ ui <- navbarPage(title = "UABiome",
                                                          "sample 3" = "sample3",
                                                          "sample 4" = "sample4")),
                                            radioButtons("pType", "Choose plot type:",
-                                                        list("barchart", "Table view", "TreeMap view"))
+                                                        list("barchart", "Table view", "PieChart view"))
                                          ),
                                          mainPanel(
                                            textOutput("title_txt"),
-                                           conditionalPanel('input.pType=="TreeMap view"', plotOutput("bubblechart_SSA")),
+                                           conditionalPanel('input.pType=="PieChart view"', plotOutput("bubblechart_SSA")),
                                            conditionalPanel('input.pType=="barchart"', plotOutput("barchart_SSA")),
                                            conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA")),
                                            tableOutput("tableview_diversity")
@@ -114,10 +114,11 @@ server <- function(input, output) {
       
       display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
         geom_bar(position="fill", stat="identity")+
+        scale_y_continuous(labels = scales::percent) +
         scale_fill_viridis(discrete = T) +
         ggtitle("Comparison to average population") +
-        theme_ipsum() +
-        ylab("% of the population")
+        ylab("% of the population")+
+        theme_minimal()
     })
     table_view <- reactive({
       dataset1 %>% select(Genus, sample, Genus_count) %>% 
@@ -128,11 +129,14 @@ server <- function(input, output) {
       table_view()
     })
     output$bubblechart_SSA <- renderPlot({ 
-      validate(need(input$pType=="TreeMap view", message=FALSE))
+      validate(need(input$pType=="PieChart view", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
-        filter(sample %in% c(input$sample, "sample_average"))
-      display_dataset %>% ggplot2::ggplot(ggplot2::aes(area = Genus_count, fill = Genus)) +
-        geom_treemap()
+        filter(sample==input$sample)
+      display_dataset %>% ggplot(aes(x="", y=Genus_count, fill=Genus)) +
+        geom_bar(stat="identity", width=1, color="white") +
+        scale_fill_viridis(discrete = T) +
+        coord_polar("y", start=0) +
+        theme_void()
     })
     table_div <- reactive({
       dataset1 %>% select(sample,  "Shannon index", "Sorensen index") %>% 
@@ -154,17 +158,19 @@ server <- function(input, output) {
       if(!input$TempShow){
         display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
           geom_bar(position="fill", stat="identity")+
+          scale_y_continuous(labels = scales::percent) +
           scale_fill_viridis(discrete = T) +
           ggtitle("Comparing your sample") +
-          theme_ipsum() +
-          ylab("% of the microbial population")
+          ylab("% of the microbial population") +
+          theme_minimal()
       }else{
         display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=date)) + 
           geom_bar(position="fill", stat="identity")+
+          scale_y_continuous(labels = scales::percent) +
           scale_fill_viridis(discrete = T) +
           ggtitle("Comparing your sample") +
-          theme_ipsum() +
-          ylab("% of the microbial population")
+          ylab("% of the microbial population") +
+          theme_minimal()
       }
     })
     alpha_view <- reactive({
