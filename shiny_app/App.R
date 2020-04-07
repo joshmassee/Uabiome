@@ -35,8 +35,8 @@ ui <- navbarPage(title = "UABiome",
                           )
                  ),
                  # ----------------------------------
-                 # tab panel 2 - My profile
-                 tabPanel(title = "My profile",
+                 # tab panel 2 - Analysis
+                 tabPanel(title = "Analysis",
                           navlistPanel(
                             # ----------------------------------
                             # tab panel 2-A - Single sample analysis
@@ -49,12 +49,12 @@ ui <- navbarPage(title = "UABiome",
                                                          "sample 3" = "sample3",
                                                          "sample 4" = "sample4")),
                                            radioButtons("pType", "Choose plot type:",
-                                                        list("barchart", "Table view", "PieChart view"))
+                                                        list("Barchart", "Table view", "PieChart view"))
                                          ),
                                          mainPanel(
                                            textOutput("title_txt"),
                                            conditionalPanel('input.pType=="PieChart view"', plotOutput("bubblechart_SSA")),
-                                           conditionalPanel('input.pType=="barchart"', plotOutput("barchart_SSA")),
+                                           conditionalPanel('input.pType=="Barchart"', plotOutput("barchart_SSA")),
                                            conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA")),
                                            tableOutput("tableview_diversity")
                                          )
@@ -107,7 +107,7 @@ server <- function(input, output) {
       paste("You are vizualizing ", input$sample)
     })
     output$barchart_SSA <- renderPlot({  
-      validate(need(input$pType=="barchart", message=FALSE))
+      validate(need(input$pType=="Barchart", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
         filter(sample %in% c(input$sample, "sample_average")) %>% group_by(sample) %>% 
         arrange(desc(Genus_count)) %>% top_n(10)
