@@ -6,11 +6,12 @@ library(stringr)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(readr)
 
 # ----------------------------------
 # load dataset
-dataset1 <- readr::read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
-info_dataset<- readr::read_csv("sample_info.csv")
+dataset1 <- read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
+info_dataset<- read_csv("sample_info.csv", col_types=cols(date = col_date("%Y-%m-%d")))
 dataset1 <- left_join(dataset1, info_dataset, by="sample")
 
 
@@ -88,7 +89,22 @@ ui <- navbarPage(title = "UABiome",
                             
                             
             )
-          )
+          ),
+          
+                # ----------------------------------
+                # tab panel 3 - my Profile
+                tabPanel(title = "My profile",
+                         sidebarLayout(
+                           sidebarPanel(
+                             textInput("myalias", "New username", "Username 1"),
+                             actionButton("update_name", "Update my alias")
+                           ),
+                           mainPanel(
+                             textOutput("alias"),
+                             tableOutput("tableview_samples") 
+                           )
+                         )
+                )
 )
                  
 
@@ -181,6 +197,25 @@ server <- function(input, output) {
       validate(need(input$alphaShow, message=FALSE))
       alpha_view()
     })
+    
+    # ----------------------------------
+    # tab panel 3 - User profile
+    new_username <- reactiveValues(data = "default_1")
+    observeEvent(input$update_name, {
+      new_username$data <- input$myalias
+    })
+    output$alias <- renderText({
+        paste("Your username :", new_username$data)
+    })
+    table_samples <- reactive({
+      dataset1 %>%  mutate("submission_date"=as.character(dataset1$date)) %>% select(sample, submission_date) %>% 
+        unique() %>% filter(!sample=="sample_average") %>%
+        rename("your samples"=sample) 
+    })
+    output$tableview_samples <- renderTable({
+      table_samples()
+    })
+
 }
 
 shinyApp(server = server, ui = ui)
