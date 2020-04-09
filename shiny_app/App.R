@@ -53,7 +53,6 @@ ui <- navbarPage(title = "UABiome",
                                                         list("Barchart", "Table view", "PieChart view"))
                                          ),
                                          mainPanel(
-                                           textOutput("title_txt"),
                                            conditionalPanel('input.pType=="PieChart view"', plotOutput("bubblechart_SSA")),
                                            conditionalPanel('input.pType=="Barchart"', plotOutput("barchart_SSA")),
                                            conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA")),
@@ -79,7 +78,6 @@ ui <- navbarPage(title = "UABiome",
                                            checkboxInput("TempShow", "show dates", FALSE)
                                           ),
                                           mainPanel(
-                                            textOutput("txt"),
                                              plotOutput("barchart_TSA"),
                                              tableOutput("tableview_TSA"),
                                              verbatimTextOutput("value")
@@ -119,22 +117,21 @@ server <- function(input, output) {
   
   # ----------------------------------
   # tab panel 2-A - Sample analysis
-    output$title_txt <- renderText({
-      paste("You are vizualizing ", input$sample)
-    })
     output$barchart_SSA <- renderPlot({  
       validate(need(input$pType=="Barchart", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
         filter(sample %in% c(input$sample, "sample_average")) %>% group_by(sample) %>% 
         arrange(desc(Genus_count)) %>% top_n(10)
+      title_txt <- paste("Comparison of ", input$sample, " to average population")
       
       display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
         geom_bar(position="fill", stat="identity")+
         scale_y_continuous(labels = scales::percent) +
         scale_fill_viridis(discrete = T) +
-        ggtitle("Comparison to average population") +
+        ggtitle(title_txt) +
         ylab("% of the population")+
-        theme_minimal()
+        xlab("")+
+        theme_minimal(base_size = 13)
     })
     table_view <- reactive({
       dataset1 %>%  filter(sample==input$sample) %>%
@@ -148,11 +145,15 @@ server <- function(input, output) {
       validate(need(input$pType=="PieChart view", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
         filter(sample==input$sample)
+      
+      title_txt <- paste("Population of ", input$sample)
+      
       display_dataset %>% ggplot(aes(x="", y=Genus_count, fill=Genus)) +
         geom_bar(stat="identity", width=1, color="white") +
         scale_fill_viridis(discrete = T) +
         coord_polar("y", start=0) +
-        theme_void()
+        ggtitle(title_txt) +
+        theme_void(base_size = 13)
     })
     table_div <- reactive({
       dataset1 %>% select(sample,  "Shannon index", "Sorensen index") %>% 
@@ -164,29 +165,31 @@ server <- function(input, output) {
   
     # ----------------------------------
     # tab panel 2-B - Temporal analysis
-    output$txt <- renderText({
-      samples_names <- paste(input$sample_sel, collapse = ", ")
-      paste("You chose", samples_names)
-    })
     output$barchart_TSA <- renderPlot({  
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count, date) %>% 
         filter(sample %in% c(input$sample_sel))
+      
+      samples_names <- paste(input$sample_sel, collapse = ", ")
+      title_txt2 <- paste("Composition of ", samples_names)
+      
       if(!input$TempShow){
         display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=sample)) + 
           geom_bar(position="fill", stat="identity")+
           scale_y_continuous(labels = scales::percent) +
           scale_fill_viridis(discrete = T) +
-          ggtitle("Comparing your sample") +
+          ggtitle(title_txt2) +
           ylab("% of the microbial population") +
-          theme_minimal()
+          xlab("")+
+          theme_minimal(base_size = 13)
       }else{
         display_dataset %>% ggplot(aes(fill=Genus, y=Genus_count, x=date)) + 
           geom_bar(position="fill", stat="identity")+
           scale_y_continuous(labels = scales::percent) +
           scale_fill_viridis(discrete = T) +
-          ggtitle("Comparing your sample") +
+          ggtitle(title_txt2) +
           ylab("% of the microbial population") +
-          theme_minimal()
+          xlab("")+
+          theme_minimal(base_size = 13)
       }
     })
     alpha_view <- reactive({
