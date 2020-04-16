@@ -5,8 +5,8 @@ account: aponsero
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 2031895
-bundleId: 2990152
+bundleId: 3012781
 url: https://aponsero.shinyapps.io/UABiome/
-when: 1586401767.70541
+when: 1586885365.52163
 asMultiple: FALSE
 asStatic: FALSE

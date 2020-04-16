@@ -1,422 +1,423 @@
-Kingdom	Phylum	Class	Order	Family	Genus	sample_average	sample1	sample2	sample3	sample4	sample5	sample6
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	25165.83333	19581	12524	41484	37453	39747	206
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	6673.5	16971	2620	1158	465	95	18732
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	12192.33333	10980	3720	3026	1748	1025	52655
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia/Shigella	19.16666667	0	0	0	0	0	115
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	72.33333333	434	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	7345	33	12179	16934	11032	3805	87
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Serratia	131.3333333	0	0	64	724	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	2672	31	0	0	8333	7544	124
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	5.833333333	0	35	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Clostridioides	2.833333333	0	0	0	17	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	8125.333333	0	1072	9618	34958	2991	113
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	5.333333333	0	0	0	0	0	32
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	2.833333333	0	0	0	0	17	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	9581.166667	0	43154	11663	2092	578	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	12329	0	36187	13447	14010	10330	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	3019.333333	0	0	351	7307	10458	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	754.6666667	841	0	0	0	0	3687
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Morganella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	7860.333333	99	18413	16494	12156	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	4993.333333	0	7821	7550	5656	8933	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Rosenbergiella	7576.833333	15001	28281	1426	121	632	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	2232	0	167	2397	9942	886	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	916	979	2362	1518	553	84	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	23.16666667	139	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1960.166667	0	6315	1426	3790	230	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	15.33333333	0	92	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	1014.333333	25	2150	2787	740	384	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Peptoniphilus	983.1666667	0	2282	220	601	2796	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	3404.166667	0	10608	2363	7067	387	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	331.1666667	0	0	0	1056	931	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Clostridioides	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0
-Eukaryota	NA	NA	NA	NA	NA	31	102	9	4	47	7	17
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1611.833333	0	5150	1211	3148	162	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Fusicatenibacter	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	8.333333333	13	6	0	0	0	31
-Bacteria	Actinobacteria	Actinobacteria	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Asaccharospora	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	81.16666667	0	330	107	50	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	270	0	0	0	0	0	1620
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Bilophila	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	29	0	0	0	0	174	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Ralstonia	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Dermabacteraceae	Dermabacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Mannheimia	351.3333333	0	1960	18	130	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	77.5	0	0	0	0	0	465
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Citrobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Eggerthella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Family_XI	Gemella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Asaccharospora	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	Neisseria	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Peptoniphilus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Eggerthella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Cyanobacteria	Oxyphotobacteria	Chloroplast	NA	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Lawsonella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0
-Eukaryota	NA	NA	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Micrococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Leuconostoc	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Cytophagales	Spirosomaceae	Larkinella	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Hungatella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Dietziaceae	Dietzia	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Achromobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	W5053	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia/Shigella	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Lautropia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Delftia	0	0	0	0	0	0	0
-Bacteria	Tenericutes	Mollicutes	Mollicutes_RF39	NA	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Tenericutes	Mollicutes	Anaeroplasmatales	Anaeroplasmataceae	Anaeroplasma	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	NA	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Deltaproteobacteria	RCP2-54	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	Muribaculum	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	14	0	84	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	13.83333333	0	50	0	33	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Acidovorax	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Acidimicrobiia	Microtrichales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Cyanobacteria	Oxyphotobacteria	Chloroplast	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	Neisseria	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Frankiales	Geodermatophilaceae	Geodermatophilus	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micromonosporales	Micromonosporaceae	Hamadaea	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	Acidimicrobiaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Tenericutes	Mollicutes	Mollicutes_RF39	NA	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Acidimicrobiia	Microtrichales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Ellin6055	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinotignum	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	9.166666667	55	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Acidimicrobiia	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	JG30-KF-CM45	NA	0	0	0	0	0	0	0
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Nonomuraea	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Curtobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Dermabacteraceae	Dermabacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Dietziaceae	Dietzia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	2	0	0	0	12	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Noviherbaspirillum	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0
-Bacteria	Deinococcus-Thermus	Deinococci	Thermales	Thermaceae	Thermus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionimicrobium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Curtobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Cellulomonadaceae	Cellulomonas	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Psychrobacter	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Tepidimonas	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Nocardiaceae	Gordonia	0	0	0	0	0	0	0
-Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	JG30-KF-CM45	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Nocardioidaceae	Marmoricola	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Siccibacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1.5	0	0	0	9	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	67-14	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Verrucomicrobia	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Candidatus_Udaeobacter	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Microlunatus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Faecalibaculum	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Varibaculum	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0.666666667	0	0	0	4	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Subgroup_6	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	Pirellula	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Pyrinomonadales	Pyrinomonadaceae	RB41	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Varibaculum	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Mitochondria	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Reyranellales	Reyranellaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Subgroup_6	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Bradyrhizobium	0	0	0	0	0	0	0
-Bacteria	Verrucomicrobia	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Candidatus_Udaeobacter	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	Terrimonas	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	CCD24	NA	NA	0	0	0	0	0	0	0
-Bacteria	Cyanobacteria	Oxyphotobacteria	Nostocales	Phormidiaceae	Tychonema_CCAP_1459-11B	0	0	0	0	0	0	0
-Bacteria	Chloroflexi	KD4-96	NA	NA	NA	0.333333333	0	0	0	0	2	0
-Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodopirillaceae	Defluviicoccus	0	0	0	0	0	0	0
-Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	CL500-3	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Acidobacteriia	Solibacterales	Solibacteraceae_(Subgroup_3)	PAUC26f	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	67-14	NA	0	0	0	0	0	0	0
-Bacteria	Planctomycetes	Phycisphaerae	Tepidisphaerales	WD2101_soil_group	NA	0	0	0	0	0	0	0
-Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	NA	0	0	0	0	0	0	0
-Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	Pir4_lineage	0	0	0	0	0	0	0
-Bacteria	Chlamydiae	Chlamydiae	Chlamydiales	NA	NA	0	0	0	0	0	0	0
-Bacteria	NA	NA	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Blastocatellales	Blastocatellaceae	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
-Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatirosa	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	NA	NA	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Blastocatellales	Blastocatellaceae	Stenotrophobacter	0	0	0	0	0	0	0
-Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0
-Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	NA	0	0	0	0	0	0	0
-Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	Terrimonas	0	0	0	0	0	0	0
-Bacteria	Acidobacteria	Acidobacteriia	Solibacterales	Solibacteraceae_(Subgroup_3)	Bryobacter	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0
-Bacteria	Actinobacteria	MB-A2-108	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	PLTA13	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	Hirschia	0	0	0	0	0	0	0
-Bacteria	NA	NA	NA	NA	NA	0	0	0	0	0	0	0
-Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0
+Kingdom	Phylum	Class	Order	Family	Genus	Sample_average	Sample1	Sample2	Sample3	Sample4	Sample5	Sample6	Sample_test
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	25165.83333	19581	12524	41484	37453	39747	206	50000
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	6673.5	16971	2620	1158	465	95	18732	50000
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	12192.33333	10980	3720	3026	1748	1025	52655	50000
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia/Shigella	19.16666667	0	0	0	0	0	115	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	72.33333333	434	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	7345	33	12179	16934	11032	3805	87	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Serratia	131.3333333	0	0	64	724	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	2672	31	0	0	8333	7544	124	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	5.833333333	0	35	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Clostridioides	2.833333333	0	0	0	17	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	8125.333333	0	1072	9618	34958	2991	113	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	5.333333333	0	0	0	0	0	32	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	2.833333333	0	0	0	0	17	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	9581.166667	0	43154	11663	2092	578	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	12329	0	36187	13447	14010	10330	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	3019.333333	0	0	351	7307	10458	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	754.6666667	841	0	0	0	0	3687	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Morganella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	7860.333333	99	18413	16494	12156	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	4993.333333	0	7821	7550	5656	8933	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Rosenbergiella	7576.833333	15001	28281	1426	121	632	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	2232	0	167	2397	9942	886	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	916	979	2362	1518	553	84	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	23.16666667	139	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1960.166667	0	6315	1426	3790	230	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	15.33333333	0	92	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	1014.333333	25	2150	2787	740	384	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Peptoniphilus	983.1666667	0	2282	220	601	2796	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	3404.166667	0	10608	2363	7067	387	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	331.1666667	0	0	0	1056	931	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Clostridioides	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Haemophilus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0	0
+Eukaryota	NA	NA	NA	NA	NA	31	102	9	4	47	7	17	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1611.833333	0	5150	1211	3148	162	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Fusicatenibacter	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	8.333333333	13	6	0	0	0	31	0
+Bacteria	Actinobacteria	Actinobacteria	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Asaccharospora	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	81.16666667	0	330	107	50	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Sutterella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	270	0	0	0	0	0	1620	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Bilophila	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Negativicoccus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	29	0	0	0	0	174	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Ralstonia	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Dermabacteraceae	Dermabacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pasteurellales	Pasteurellaceae	Mannheimia	351.3333333	0	1960	18	130	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	77.5	0	0	0	0	0	465	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Citrobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	Butyricicoccus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Eggerthella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Family_XI	Gemella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Asaccharospora	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	Neisseria	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Peptoniphilus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Eggerthellaceae	Eggerthella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Finegoldia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Cyanobacteria	Oxyphotobacteria	Chloroplast	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Lawsonella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0	0
+Eukaryota	NA	NA	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Xanthomonadales	Xanthomonadaceae	Stenotrophomonas	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Micrococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Leuconostocaceae	Leuconostoc	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Klebsiella	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Cytophagales	Spirosomaceae	Larkinella	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Hungatella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Ruminococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Dietziaceae	Dietzia	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Achromobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	W5053	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Streptococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Bacillaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Escherichia/Shigella	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Lautropia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Delftia	0	0	0	0	0	0	0	0
+Bacteria	Tenericutes	Mollicutes	Mollicutes_RF39	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Tenericutes	Mollicutes	Anaeroplasmatales	Anaeroplasmataceae	Anaeroplasma	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Roseburia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	NA	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	Pseudomonas	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Deltaproteobacteria	RCP2-54	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Novosphingobium	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Carnobacteriaceae	Granulicatella	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	Muribaculum	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Gardnerella	14	0	84	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	13.83333333	0	50	0	33	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Pseudonocardiales	Pseudonocardiaceae	Pseudonocardia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Acidovorax	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Leptotrichiaceae	Leptotrichia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Bacteroidaceae	Bacteroides	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Acidimicrobiia	Microtrichales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Cyanobacteria	Oxyphotobacteria	Chloroplast	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	Neisseria	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Frankiales	Geodermatophilaceae	Geodermatophilus	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Rikenellaceae	Alistipes	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micromonosporales	Micromonosporaceae	Hamadaea	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Acidimicrobiia	Acidimicrobiales	Acidimicrobiaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Tenericutes	Mollicutes	Mollicutes_RF39	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Acidimicrobiia	Microtrichales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Sphingobacteriales	Sphingobacteriaceae	Pedobacter	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Neisseriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Ellin6055	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinotignum	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	9.166666667	55	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Acidimicrobiia	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	JG30-KF-CM45	NA	0	0	0	0	0	0	0	0
+Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Lachnospiraceae_NK4A136_group	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Streptosporangiales	Streptosporangiaceae	Nonomuraea	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Curtobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Dermabacteraceae	Dermabacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	Clostridium_sensu_stricto_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Deltaproteobacteria	Desulfovibrionales	Desulfovibrionaceae	Desulfovibrio	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Dietziaceae	Dietzia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	2	0	0	0	12	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Noviherbaspirillum	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Fusobacteria	Fusobacteriia	Fusobacteriales	Fusobacteriaceae	Fusobacterium	0	0	0	0	0	0	0	0
+Bacteria	Deinococcus-Thermus	Deinococci	Thermales	Thermaceae	Thermus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Propionimicrobium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Lactobacillaceae	Lactobacillus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Microbacteriaceae	Curtobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Cellulomonadaceae	Cellulomonas	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Psychrobacter	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Family_XI	Anaerococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Coriobacteriia	Coriobacteriales	Atopobiaceae	Atopobium	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Betaproteobacteriales	Burkholderiaceae	Tepidimonas	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Muribaculaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Clostridiaceae_1	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Nocardiaceae	Gordonia	0	0	0	0	0	0	0	0
+Bacteria	Chloroflexi	Chloroflexia	Thermomicrobiales	JG30-KF-CM45	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Bifidobacteriales	Bifidobacteriaceae	Bifidobacterium	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Lachnospiraceae	Blautia	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Tannerellaceae	Parabacteroides	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodobacterales	Rhodobacteraceae	Paracoccus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium_1	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Nocardioidaceae	Marmoricola	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Siccibacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Pseudomonadaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	1.5	0	0	0	9	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	67-14	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Actinomyces	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Melissococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Candidatus_Udaeobacter	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	Pseudocitrobacter	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Microlunatus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Erysipelotrichia	Erysipelotrichales	Erysipelotrichaceae	Faecalibaculum	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Streptococcaceae	Lactococcus	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Bacteroidales	Prevotellaceae	Prevotella	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Varibaculum	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Flavobacteriales	Flavobacteriaceae	Flavobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Propionibacteriales	Propionibacteriaceae	Cutibacterium	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Beijerinckiaceae	Methylobacterium	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Corynebacteriales	Corynebacteriaceae	Corynebacterium	0.666666667	0	0	0	4	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Sphingomonadales	Sphingomonadaceae	Sphingomonas	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Subgroup_6	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	Pirellula	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Pyrinomonadales	Pyrinomonadaceae	RB41	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Micrococcales	Micrococcaceae	Rothia	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Negativicutes	Selenomonadales	Veillonellaceae	Veillonella	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Actinobacteria	Actinomycetales	Actinomycetaceae	Varibaculum	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rickettsiales	Mitochondria	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Reyranellales	Reyranellaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Subgroup_6	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Lactobacillales	Enterococcaceae	Enterococcus	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	Bradyrhizobium	0	0	0	0	0	0	0	0
+Bacteria	Verrucomicrobia	Verrucomicrobiae	Chthoniobacterales	Chthoniobacteraceae	Candidatus_Udaeobacter	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Flavobacteriales	Weeksellaceae	Bergeyella	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	Terrimonas	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Pseudomonadales	Moraxellaceae	Acinetobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Clostridia	Clostridiales	Peptostreptococcaceae	Peptostreptococcus	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	Gaiellaceae	Gaiella	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhizobiales	Xanthobacteraceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	CCD24	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Cyanobacteria	Oxyphotobacteria	Nostocales	Phormidiaceae	Tychonema_CCAP_1459-11B	0	0	0	0	0	0	0	0
+Bacteria	Chloroflexi	KD4-96	NA	NA	NA	0.333333333	0	0	0	0	2	0	0
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Rhodospirillales	Rhodopirillaceae	Defluviicoccus	0	0	0	0	0	0	0	0
+Bacteria	Planctomycetes	Phycisphaerae	Phycisphaerales	Phycisphaeraceae	CL500-3	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Acidobacteriia	Solibacterales	Solibacteraceae_(Subgroup_3)	PAUC26f	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	67-14	NA	0	0	0	0	0	0	0	0
+Bacteria	Planctomycetes	Phycisphaerae	Tepidisphaerales	WD2101_soil_group	NA	0	0	0	0	0	0	0	0
+Bacteria	Chloroflexi	Anaerolineae	Anaerolineales	Anaerolineaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	Pir4_lineage	0	0	0	0	0	0	0	0
+Bacteria	Chlamydiae	Chlamydiae	Chlamydiales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	NA	NA	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Blastocatellales	Blastocatellaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Gemmatimonadetes	Gemmatimonadetes	Gemmatimonadales	Gemmatimonadaceae	Gemmatirosa	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Gaiellales	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Blastocatellia_(Subgroup_4)	Blastocatellales	Blastocatellaceae	Stenotrophobacter	0	0	0	0	0	0	0	0
+Bacteria	Firmicutes	Bacilli	Bacillales	Staphylococcaceae	Staphylococcus	0	0	0	0	0	0	0	0
+Bacteria	Planctomycetes	Planctomycetacia	Pirellulales	Pirellulaceae	NA	0	0	0	0	0	0	0	0
+Bacteria	Bacteroidetes	Bacteroidia	Chitinophagales	Chitinophagaceae	Terrimonas	0	0	0	0	0	0	0	0
+Bacteria	Acidobacteria	Acidobacteriia	Solibacterales	Solibacteraceae_(Subgroup_3)	Bryobacter	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	Thermoleophilia	Solirubrobacterales	Solirubrobacteraceae	Solirubrobacter	0	0	0	0	0	0	0	0
+Bacteria	Actinobacteria	MB-A2-108	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	PLTA13	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Alphaproteobacteria	Caulobacterales	Hyphomonadaceae	Hirschia	0	0	0	0	0	0	0	0
+Bacteria	NA	NA	NA	NA	NA	0	0	0	0	0	0	0	0
+Bacteria	Proteobacteria	Gammaproteobacteria	Enterobacteriales	Enterobacteriaceae	NA	0	0	0	0	0	0	0	0
+						121909.5							

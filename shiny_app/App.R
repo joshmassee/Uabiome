@@ -12,7 +12,7 @@ library(readr)
 # load dataset
 dataset1 <- read_csv("format_samples.csv") %>% rename("Shannon index"="Shannon_alpha", "Sorensen index"="Sorensen_beta")
 info_dataset<- read_csv("sample_info.csv", col_types=cols(date = col_date("%Y-%m-%d")))
-dataset1 <- left_join(dataset1, info_dataset, by="sample")
+dataset1 <- left_join(dataset1, info_dataset, by="sample") %>% filter(sample != "Sample_test")
 
 
 ui <- navbarPage(title = "UABiome",
@@ -38,24 +38,26 @@ ui <- navbarPage(title = "UABiome",
                  # ----------------------------------
                  # tab panel 2 - Analysis
                  tabPanel(title = "Analysis",
-                          navlistPanel(
+                          navlistPanel(fluid=TRUE,widths = c(2, 10),
                             # ----------------------------------
                             # tab panel 2-A - Single sample analysis
-                            tabPanel("Single sample", 
-                                       sidebarLayout(
+                            tabPanel("Single Sample", 
+                                       sidebarLayout(fluid=TRUE,
                                          sidebarPanel(
-                                           selectInput("sample", "sample selection:",
-                                                       c("sample 1" = "sample1",
-                                                         "sample 2" = "sample2",
-                                                         "sample 3" = "sample3",
-                                                         "sample 4" = "sample4")),
-                                           radioButtons("pType", "Choose plot type:",
-                                                        list("Barchart", "Table view", "PieChart view"))
+                                           selectInput("sample", "Sample Selection:",
+                                                       c("Sample 1" = "Sample1",
+                                                         "Sample 2" = "Sample2",
+                                                         "Sample 3" = "Sample3",
+                                                         "Sample 4" = "Sample4",
+                                                         "sample 5" = "Sample5",
+                                                         "sample 6" = "Sample6")),
+                                           radioButtons("pType", "Choose Plot Type:",
+                                                        list("Barchart", "Table View", "PieChart View"))
                                          ),
-                                         mainPanel(
-                                           conditionalPanel('input.pType=="PieChart view"', plotOutput("bubblechart_SSA")),
+                                         mainPanel(width = 8,
+                                           conditionalPanel('input.pType=="PieChart View"', plotOutput("bubblechart_SSA")),
                                            conditionalPanel('input.pType=="Barchart"', plotOutput("barchart_SSA")),
-                                           conditionalPanel('input.pType=="Table view"', tableOutput("tableview_SSA")),
+                                           conditionalPanel('input.pType=="Table View"', tableOutput("tableview_SSA")),
                                            tableOutput("tableview_diversity")
                                          )
                                        )
@@ -64,18 +66,20 @@ ui <- navbarPage(title = "UABiome",
                             
                             # ----------------------------------
                             # tab panel 2-B - Temportal analysis
-                            tabPanel("Temporal analysis", 
-                                     sidebarLayout(
+                            tabPanel("Temporal Analysis", 
+                                     sidebarLayout(fluid=TRUE,
                                          sidebarPanel(
-                                           selectInput("sample_sel", "Select your samples:",
-                                                       c("sample 1" = "sample1",
-                                                         "sample 2" = "sample2",
-                                                         "sample 3" = "sample3",
-                                                         "sample 4" = "sample4"), 
-                                                       selected = "sample1",
+                                           selectInput("sample_sel", "Select Your Samples:",
+                                                       c("sample 1" = "Sample1",
+                                                         "sample 2" = "Sample2",
+                                                         "sample 3" = "Sample3",
+                                                         "sample 4" = "Sample4",
+                                                         "sample 5" = "Sample5",
+                                                         "sample 6" = "Sample6"), 
+                                                       selected = "Sample1",
                                                        multiple= TRUE),
-                                           checkboxInput("alphaShow", "show alpha index", FALSE),
-                                           checkboxInput("TempShow", "show dates", FALSE)
+                                           checkboxInput("alphaShow", "Show Alpha Index", FALSE),
+                                           checkboxInput("TempShow", "Show Dates", FALSE)
                                           ),
                                           mainPanel(
                                              plotOutput("barchart_TSA"),
@@ -91,11 +95,11 @@ ui <- navbarPage(title = "UABiome",
           
                 # ----------------------------------
                 # tab panel 3 - my Profile
-                tabPanel(title = "My profile",
+                tabPanel(title = "My Profile",
                          sidebarLayout(
                            sidebarPanel(
-                             textInput("myalias", "New username", "Username 1"),
-                             actionButton("update_name", "Update my alias")
+                             textInput("myalias", "New Username", "Username 1"),
+                             actionButton("update_name", "Update My Alias")
                            ),
                            mainPanel(
                              textOutput("alias"),
@@ -120,7 +124,7 @@ server <- function(input, output) {
     output$barchart_SSA <- renderPlot({  
       validate(need(input$pType=="Barchart", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
-        filter(sample %in% c(input$sample, "sample_average")) %>% group_by(sample) %>% 
+        filter(sample %in% c(input$sample, "Sample_average")) %>% group_by(sample) %>% 
         arrange(desc(Genus_count)) %>% top_n(10)
       title_txt <- paste("Comparison of ", input$sample, " to average population")
       
@@ -134,15 +138,15 @@ server <- function(input, output) {
         theme_minimal(base_size = 13)
     })
     table_view <- reactive({
-      dataset1 %>%  filter(sample==input$sample) %>%
-        select(Genus, Genus_count)
+      dataset1 %>%  filter(sample==input$sample) %>% 
+        select(Phylum, Class, Genus, Genus_count) %>% arrange(desc(Genus_count))
     })
     output$tableview_SSA <- renderTable({
-      validate(need(input$pType=="Table view", message=FALSE))
+      validate(need(input$pType=="Table View", message=FALSE))
       table_view()
-    })
+    }, digits = 0)
     output$bubblechart_SSA <- renderPlot({ 
-      validate(need(input$pType=="PieChart view", message=FALSE))
+      validate(need(input$pType=="PieChart View", message=FALSE))
       display_dataset <- dataset1 %>% select(Genus, sample, Genus_count) %>% 
         filter(sample==input$sample)
       
@@ -157,7 +161,7 @@ server <- function(input, output) {
     })
     table_div <- reactive({
       dataset1 %>% select(sample,  "Shannon index", "Sorensen index") %>% 
-        filter(sample==input$sample) %>% unique()
+        filter(sample==input$sample) %>% unique() %>% rename("Sample"="sample")
     })
     output$tableview_diversity <- renderTable({
       table_div()
@@ -212,8 +216,8 @@ server <- function(input, output) {
     })
     table_samples <- reactive({
       dataset1 %>%  mutate("submission_date"=as.character(dataset1$date)) %>% select(sample, submission_date) %>% 
-        unique() %>% filter(!sample=="sample_average") %>%
-        rename("your samples"=sample) 
+        unique() %>% filter(!sample=="Sample_average") %>%
+        rename("Your Samples"=sample, "Submission Date"="submission_date")
     })
     output$tableview_samples <- renderTable({
       table_samples()
