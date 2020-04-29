@@ -19,7 +19,6 @@ ui <- navbarPage(title = "UABiome",
                  theme = "style/style.css",
                  footer = includeHTML("footer.html"),
                  fluid = TRUE, 
-                 collapsible = TRUE,
                  
                  # ----------------------------------
                  # tab panel 1 - Home
@@ -92,9 +91,22 @@ ui <- navbarPage(title = "UABiome",
                             
             )
           ),
-          
                 # ----------------------------------
-                # tab panel 3 - my Profile
+                # tab panel 3 - More information
+                tabPanel("More info",
+                         includeHTML("more_information.html"),
+                         tags$script(src = "plugins/scripts.js"),
+                         tags$head(
+                           tags$link(rel = "stylesheet", 
+                                     type = "text/css", 
+                                     href = "plugins/font-awesome-4.7.0/css/font-awesome.min.css"),
+                           tags$link(rel = "icon", 
+                                     type = "image/png", 
+                                     href = "images/logo_icon.png")
+                         )
+                ),
+                # ----------------------------------
+                # tab panel 4 - my Profile
                 tabPanel(title = "My Profile",
                          sidebarLayout(
                            sidebarPanel(
